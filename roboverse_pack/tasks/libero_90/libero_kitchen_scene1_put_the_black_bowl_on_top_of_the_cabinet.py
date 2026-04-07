@@ -82,6 +82,7 @@ class LiberoKitchen1PutBowlOnCabinetTask(Libero90BaseTask):
             ),
         ],
         robots=["franka"],
+        scene="libero_kitchen_tabletop",
     )
 
     max_episode_steps = 300
