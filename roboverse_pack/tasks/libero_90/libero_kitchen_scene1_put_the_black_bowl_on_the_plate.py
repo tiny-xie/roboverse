@@ -66,6 +66,7 @@ class LiberoKitchen1PutBowlOnPlateTask(Libero90BaseTask):
         ],
         robots=["franka"],
         # Scene configuration (from BDDL problem domain),
+        scene="libero_kitchen_tabletop",
     )
 
     # Task parameters
